@@ -1,0 +1,16 @@
+C:\Users\Oren\Desktop\FinalProject\finalProject_service\finalProject_service\bin\Debug\netcoreapp2.1\finalProject_service.deps.json
+C:\Users\Oren\Desktop\FinalProject\finalProject_service\finalProject_service\bin\Debug\netcoreapp2.1\finalProject_service.runtimeconfig.json
+C:\Users\Oren\Desktop\FinalProject\finalProject_service\finalProject_service\bin\Debug\netcoreapp2.1\finalProject_service.runtimeconfig.dev.json
+C:\Users\Oren\Desktop\FinalProject\finalProject_service\finalProject_service\bin\Debug\netcoreapp2.1\finalProject_service.dll
+C:\Users\Oren\Desktop\FinalProject\finalProject_service\finalProject_service\bin\Debug\netcoreapp2.1\finalProject_service.pdb
+C:\Users\Oren\Desktop\FinalProject\finalProject_service\finalProject_service\obj\Debug\netcoreapp2.1\finalProject_service.csproj.CoreCompileInputs.cache
+C:\Users\Oren\Desktop\FinalProject\finalProject_service\finalProject_service\obj\Debug\netcoreapp2.1\finalProject_service.RazorAssemblyInfo.cache
+C:\Users\Oren\Desktop\FinalProject\finalProject_service\finalProject_service\obj\Debug\netcoreapp2.1\finalProject_service.RazorAssemblyInfo.cs
+C:\Users\Oren\Desktop\FinalProject\finalProject_service\finalProject_service\obj\Debug\netcoreapp2.1\finalProject_service.AssemblyInfoInputs.cache
+C:\Users\Oren\Desktop\FinalProject\finalProject_service\finalProject_service\obj\Debug\netcoreapp2.1\finalProject_service.AssemblyInfo.cs
+C:\Users\Oren\Desktop\FinalProject\finalProject_service\finalProject_service\obj\Debug\netcoreapp2.1\finalProject_service.RazorTargetAssemblyInfo.cache
+C:\Users\Oren\Desktop\FinalProject\finalProject_service\finalProject_service\obj\Debug\netcoreapp2.1\finalProject_service.dll
+C:\Users\Oren\Desktop\FinalProject\finalProject_service\finalProject_service\obj\Debug\netcoreapp2.1\finalProject_service.pdb
+C:\Users\Oren\Desktop\FinalProject\finalProject_service\finalProject_service\obj\Debug\netcoreapp2.1\finalProject_service.csprojAssemblyReference.cache
+C:\Users\Oren\Desktop\FinalProject\finalProject_service\finalProject_service\bin\Debug\netcoreapp2.1\finalProject_service.Views.dll
+C:\Users\Oren\Desktop\FinalProject\finalProject_service\finalProject_service\obj\Debug\netcoreapp2.1\finalProject_service.csproj.CopyComplete
