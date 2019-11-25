@@ -1,0 +1,26 @@
+.sideNav{
+    background-color: #333;
+    width: 220px;
+    height: 100%;
+    .dishRow{
+        height: 30px;
+        display: grid;
+        text-align: center;
+        font-size: 20px;
+        border-bottom: 0.5px solid #eee;
+        transition:background-color 0.6s;
+        cursor: pointer;
+        &:hover{
+            background-color: rgb(34, 165, 121);
+        }
+        label:hover{
+            color:black;
+            transition:color 0.6s;
+        }
+        label{
+            color: #eee;
+            cursor: pointer;
+            align-self: center;
+        }
+    }
+}

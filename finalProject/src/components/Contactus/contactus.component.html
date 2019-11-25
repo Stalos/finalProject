@@ -1,0 +1,23 @@
+﻿<div class="contactUsWrapper">
+        <div class="myForm">
+                <form action="myAction">
+                    full name:<input type="text" name="currentName" value={{currentName}} (change) = "editComment($event)" placeholder="John Doe" required pattern="\S+.*"/><br>
+                    phone number:<input type="text"  name="currentNumber" value={{currentNumber}} (change) = "editComment($event)" placeholder="0505555555" required pattern="\S+.*"><br>
+                    email address:<input type="text" name="currentEmail" value={{currentEmail}} (change) = "editComment($event)" placeholder="example@gmail.com" required pattern="\S+.*"><br>
+                    reason to contact:
+                    <select name="reason"> 
+                            <option value="question">have a question</option>
+                            <option value="2complain">to complain</option>
+                            <option value="band">register as a band</option>
+                            <option value="compliment">give us a compliment</option>
+                            <option value="other">other</option>
+                    </select>
+                    <br>
+                    details:
+                    <br>
+                    <textarea rows="9" cols="209" name="details">
+                    </textarea>
+                    <input type="submit" value="Submit" (click)="onSubmit()">   
+                </form>
+        </div>
+</div>

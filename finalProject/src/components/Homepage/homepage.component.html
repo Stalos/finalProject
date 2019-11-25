@@ -1,0 +1,238 @@
+﻿<div class= "homePageWrapper">
+        <div class="events">
+                <div class="eventsClick" *ngFor='let event of events'>
+                    <div class="eventRow" (click)="scroll(event)">
+                        <label>{{event}}</label>
+                    </div>
+                </div>
+            </div> 
+        <div class="scrollingData">
+                <div class="aboutUs" id="Welcome">
+                    <h1>Welcome To Mikes Place Website!</h1><br>
+                    <h2>Mikes Place is an American bar from 1992. <br>
+                        You can come here and have some beer or a stake,<br>
+                        you can come to watch almost daily live shows or even <br>
+                        to watch yout favorite team in your favorite sport. <br>
+                        We open from 17:00-last costumer and we waiting for you to come! :)</h2>
+                        <br><br><br>
+                        <div class="sections">
+                    <h2 class="headline">Sports</h2>
+                    <h3>We Have 14 Tv's and 4 big screens, inside and outside,<br>
+                        so everyone can enjoy the games, no matter where the sit is. <br>
+                        All our 18 screens split between 3 Memirim, American one and two Israelies.<br>
+                        Each time you will want to come and watch a game, <br>
+                        it will be possible and infront of a screen.</h3>
+                        <br><br>
+                    <h2 class="headline">Live shows</h2>
+                    <h3>We are having all kind of bands during the week.<br>
+                        A hugh stage will revel to you when you get it, and it can be<br>
+                        you! <br>
+                        During Mondays and Tuesdays we are having open stage and everyone<br>
+                        can come and sing.<br>
+                        Wednsday and Saturday we have acoustic shows and during weekend <br>
+                        the real bands show for full show.<br>
+                        If you are a Rock / Blues fan, that's the right place for you.</h3>
+                        <br><br>
+                    <h2 class="headline">Special Menu</h2>
+                    <h3>We are the first to bring Israel the Sloppy Joe Sandwich<br>
+                        And Guinness beer! <br>
+                        the menu is full of all kind of flavours, for food and drinks. <br>
+                        for more information check our Menu section. 
+                    </h3>
+                </div>
+            </div>
+            <div class="sportWrapper" id="Sports">
+                            <h1>Sports</h1>
+                            <h3>Some of the major games you can come and watch 
+                                with us.</h3>
+                                <br><br>                         
+                <table class="MainPageSport">
+                    <tr>
+                    <td class="sportToday">
+                        <h2>Sports Today</h2>
+                        <ul>
+                            <li>12:00   -   Soccer   -   Man Untited - Arsenal</li>
+                            <li>13:00   -   Soccer   -   Macabbi Haifa - Hapoet Tel Aviv</li>
+                            <li>15:30   -   Tennis   -   Nadal - Federer</li>
+                            <li>17:45   -   Basketball   -   Hapoel Jerusalem - Herzliya</li>
+                            <li>18:30   -   Soccer   -   PSG - Lyon</li>
+                            <li>19:30   -   Football   -   Kensas City - New England Patriots</li>
+                            <li>20:30   -   Soccer   -   Bacelona - Real Madrid</li>
+                            <li>21:00   -   Soccer   -   Juventus - Inter Milan</li>
+                            <li>22:30   -   Football   -   Wariors - Tamples</li>
+                            <li>00:30   -   Rogby   -   Japan - India</li>
+                        </ul></td>
+                    <td class="sportWeek">
+                            <h2>Sports This week</h2>
+                        <ul>
+                            <li>Mon   -   19:00   -   Soccer   -   Liverpool - Man. City</li>
+                            <li>Mon   -   22:00   -   Soccer   -   Man. United - Newcastle</li>
+                            <li>Tuesday   -   19:30   -   Soccer   -   AC Milan - Fiorentina</li>
+                            <li>Tuesday   -   21:30   -   Basketball   -   Macabbi T.A - Hapoel Haifa</li>
+                            <li>Wednesday   -   19:00   -   Soccer   -   Hepoel Kfar Sava - Bnei Yehuda</li>
+                            <li>Wednesday   -   23:00   -   Soccer   -   Hapoel raanana - Hadera</li>
+                            <li>Thursday   -   19:00   -   Soccer   -   Dortmunt - Shalke</li>
+                            <li>Thursday   -   21:00   -   Soccer   -   Arsenal - Chelsea</li>
+                            <li>Friday   -   19:00   -   Soccer   -   Totenham - Lester City</li>
+                            <li>Friday   -   00:00   -   SFootball  -   Kenzas City - Toronto</li>
+                        </ul>
+                    </td>
+                    </tr>
+                    </table>
+                </div>
+                <br><br><br><br>
+            <div class="liveShows" id="Live shows">
+                    <h1>Live Shows For Next 2 Weeks</h1>
+                    <br><br>
+                    <h3>We pround to have a live show almost everyday, kind of show you will definatly love!<br>
+                        We respect any kind of music and you can find wharever you desire.<br>
+                        Waiting for you in stage!
+                        <br><br>    
+                    </h3>
+                    <table class="showsTable">
+                        <tr class="tableHeader">
+                            <th>Date</th>
+                            <th>Day</th>
+                            <th>Time</th>
+                            <th>Name</th>
+                            <th>Description</th>
+                        </tr>
+                        <tr>
+                            <td>11/11</td>
+                            <td>Sunday</td>
+                            <td>22:00</td>
+                            <td>Mikritz</td>
+                            <td>Covers home band</td>
+                        </tr>
+                        <tr>
+                                <td>12/11</td>
+                                <td>Monday</td>
+                                <td>21:00</td>
+                                <td>Open Stage</td>
+                                <td>Everyone can come and sing</td>
+                            </tr>
+                            <tr>
+                                    <td>13/11</td>
+                                    <td>Tuesday</td>
+                                    <td>22:00</td>
+                                    <td>Rockeoke</td>
+                                    <td>Show your skills with a band</td>
+                                </tr>
+                                <tr>
+                                        <td>14/11</td>
+                                        <td>Wednsday</td>
+                                        <td>19:00</td>
+                                        <td>Daniel Wer.</td>
+                                        <td>Acoustic one man show</td>
+                                    </tr>
+                                    <tr>
+                                            <td>15/11</td>
+                                            <td>Thursday</td>
+                                            <td>22:00</td>
+                                            <td>Rio Trio</td>
+                                            <td>Rock band</td>
+                                        </tr>
+                                        <tr>
+                                                <td>16/11</td>
+                                                <td>Friday</td>
+                                                <td>22:30</td>
+                                                <td>Buckets</td>
+                                                <td>Rock band full show</td>
+                                            </tr>
+                                            <tr>
+                                                    <td>17/11</td>
+                                                    <td>Saturday</td>
+                                                    <td>22:30</td>
+                                                    <td>Nina Simon</td>
+                                                    <td>Guest performer</td>
+                                                </tr>
+                                                <tr>
+                                                        <td>18/11</td>
+                                                        <td>Sunday</td>
+                                                        <td>22:00</td>
+                                                        <td>The Popets</td>
+                                                        <td>Covers band</td>
+                                                    </tr>
+                                                    <tr>
+                                                            <td>19/11</td>
+                                                            <td>Monday</td>
+                                                            <td>21:00</td>
+                                                            <td>Open Stage</td>
+                                                            <td>Everyone can come and sing</td>
+                                                        </tr>
+                                                        <tr>
+                                                                <td>20/11</td>
+                                                                <td>Tuesday</td>
+                                                                <td>22:00</td>
+                                                                <td>Rockeoke</td>
+                                                                <td>Show your skills with a band</td>
+                                                            </tr>
+                                                            <tr>
+                                                                    <td>21/11</td>
+                                                                    <td>Wednsday</td>
+                                                                    <td>19:00</td>
+                                                                    <td>Mush Ben Ari</td>
+                                                                    <td>Acoustic one man show</td>
+                                                                </tr>
+                                                                <tr>
+                                                                        <td>22/11</td>
+                                                                        <td>Thursday</td>
+                                                                        <td>22:00</td>
+                                                                        <td>The Alpha Punk</td>
+                                                                        <td>Rock band</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                            <td>23/11</td>
+                                                                            <td>Friday</td>
+                                                                            <td>22:30</td>
+                                                                            <td>Honey Boney</td>
+                                                                            <td>Rock band full show</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                                <td>17/11</td>
+                                                                                <td>Saturday</td>
+                                                                                <td>22:30</td>
+                                                                                <td>Shimon Amsalem</td>
+                                                                                <td>Guest performer</td>
+                                                                            </tr>
+                    </table>
+            </div>
+            <br><br>
+            <div class="SpecialDiscounts"  id="Special discounts">
+                <h1>Our Special discounts</h1>
+                <p class="h3">Happy Hour</p>
+                <p class="h5">1+1 - All Drinks</p>
+                <p class="h6">(Sunday-Thursday, 16:00-19:-00)</p>
+                <br><br>
+                <h2>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</h2>
+                <br><br>
+                <p class="h3">Sunday</p>
+                <p class="h5">NFL Sport Night</p>
+                <p class="h6">(Wings for 2 Shekels)</p>
+                <br><br>
+                <h2>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</h2>
+                <br><br>
+                <p class="h3">Monday</p>
+                <p class="h5">Margarita Monday</p>
+                <p class="h6">(Mini free Margarita for every meal)</p>
+                <br><br>
+                <h2>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</h2>
+                <br><br>
+                <p class="h3">Tuesday</p>
+                <p class="h5">Taco Tuesday</p>
+                <p class="h6">(2 Mini Tacos for every 2 cocktails)</p>
+                <br><br>
+                <h2>- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -</h2>
+                <br><br>
+                <p class="h3">Wednesday</p>
+                <p class="h5">Ladies Night</p>
+                <p class="h6">(1+1 All drinks for all night, just for the ladies)</p>
+                <br><br>
+            </div>
+                <div class="about3" id="Media">
+                    <h1>Welcome to Media!</h1>
+                    <h3>(in progress...)</h3>
+            </div>        
+    </div>
+
+

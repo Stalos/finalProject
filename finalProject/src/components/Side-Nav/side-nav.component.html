@@ -1,0 +1,7 @@
+<div class="sideNav">
+  <div class="dishes" *ngFor='let dish of dishes'>
+    <div class="dishRow">
+      <label (click)='changeDish(dish)'>{{dish}}</label>
+    </div>
+  </div>
+</div>

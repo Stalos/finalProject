@@ -1,0 +1,48 @@
+﻿<div class="menuPageWrapper">
+    <app-side-nav (dishToShow)="setCurrentSection($event)"></app-side-nav>
+        <div class="menuSection">
+            <div *ngIf="!drinksShow" >
+                <div class="dishWrapper" *ngFor='let dish of dishes' >
+                    <div class="currentDish" *ngIf="dish.name == currentDish.name" (click)='setCurrentDish(false)'>          
+                        {{dish.description}}
+                    </div>
+                    <img   
+                        [src]='dish.imgUrl'
+                        [title]='dish.name'
+                        (click)='setCurrentDish(dish)'>
+                    <div class="lowHeader">
+                        <h3 class="name" >{{dish.name}}</h3> 
+                        <h3 class="price">{{dish.price}}</h3>
+                    </div>
+                </div>
+        </div>              <!--  change photos for drinks
+                                  make sure all photos look fine  -->
+        <div class="drinksArea" *ngIf="drinksShow">
+                <div *ngIf="!drinksIsEmpty"  class="drinksSection">
+                        <div class="drinksWrapper" *ngFor='let drink of drinks' >
+                                <div class="currentDrink" *ngIf="drink.name == currentDrink.name" (click)='setCurrentDrink(false)'>          
+                                        {{drink.description}}
+                                    </div>
+                                <img 
+                                    [src]='drink.imgUrl'
+                                    [title]='drink.name'
+                                    (click)='setCurrentDrink(drink)'
+                                >
+                                <div class="lowHeader">
+                                    <h3 class="name" >{{drink.name}}</h3> 
+                                    <h3 class="price">{{drink.price}}</h3>
+                                </div>
+                            </div>
+                </div>
+                <div *ngIf="drinksIsEmpty"  class="drinksSection">
+                        <div class="drinksOptionsWrapper" *ngFor='let drink of drinksOptions'>
+                               <div class="drinkKind" >
+                                 <img (click)='getFilteredDrinkMenu(drink)' 
+                                       src="https://mikespickem.files.wordpress.com/2015/11/beer-mug.png"/>
+                                 <h3 class="name" >{{drink}}</h3> 
+                            </div>
+                        </div>
+                </div>
+        </div>
+    </div>
+</div>

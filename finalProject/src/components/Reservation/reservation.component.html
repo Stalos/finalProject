@@ -1,0 +1,49 @@
+<div class="reservationWrapper">
+    <div class="staticPoints">
+            <ul><br>
+                <li>Reservation only until 22:00</li><br>
+                <li>During weekends, only 4 people and more</li><br>
+                <li>Please try and make your on line reservations 24 hours or more in advance</li><br>
+                <li>Reservation is only approved after being contacted by us.</li><br>
+                <li>We do not commit to specific tables or sections</li><br>
+                <li>Seating can be on communal tables, benches and chairs</li><br>
+                <li>After 22:00 entrance is allowed over the age of 18 with legal ID</li><br>
+                <li>We reserve the right to present the check to a table that has stopped ordering</li>
+            </ul>
+        </div>
+    <div class="calendar"><br>
+        Choose day:
+        <ejs-calendar id=calendar [value]='value' [min]='minDate' [max]='maxDate' class="cal"></ejs-calendar>
+        <link href="https://cdn.syncfusion.com/ej2/ej2-base/styles/material.css" rel="stylesheet" />
+        <link href="https://cdn.syncfusion.com/ej2/ej2-buttons/styles/material.css" rel="stylesheet" />
+        <link href="https://cdn.syncfusion.com/ej2/ej2-popups/styles/material.css" rel="stylesheet" />
+        <link href="https://cdn.syncfusion.com/ej2/ej2-calendars/styles/material.css" rel="stylesheet" />
+    </div>
+<br>
+<div class="myForm">
+<form action="reservationDetailsForm">
+    Full name: <br>
+    <input type="text" name="currentName" value={{currentName}} (change)="editComment($event)" placeholder="John Doe" required pattern="\S+.*"/>
+    <br><br>
+    Number of people:<br>
+    <select name="numberOfPeople">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+    </select> 
+    <br><br>
+    phone number:<br>
+    <input type="text" name="currentNumber" value={{currentNumber}} (change)="editComment($event)" placeholder="0505555555" required pattern="\S+.*"/><br><br>
+    email:<br>
+    <input type="text" name="currentEmail" value={{currentEmail}} (change)="editComment($event)" placeholder="example@gmail.com" required pattern="\S+.*"/>
+    <br><br>
+    other requests: <br>
+    <input type="text" name="otherDetails" placeholder="no must"/><br><br> 
+    <input type="submit" value="Submit" (click)="onSubmit()"/>
+  </form> 
+</div>
+</div>
+

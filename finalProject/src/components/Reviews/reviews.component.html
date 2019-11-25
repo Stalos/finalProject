@@ -1,0 +1,47 @@
+<div class="reviewsWrapper">
+  <div class="fillForm">
+    <div class="name">
+      <label>Name:</label>
+      <input class="fullname" name="currentName" value={{currentName}} (change) = "editComment($event)" placeholder=" Name..."/>
+    </div>
+    <div class="rating" name="countOfStars">
+        <label>Rating:</label>
+        <div class="starsWrapper" >
+          <div class="star {{countOfStars == number}}" (click)="setStars(number)" *ngFor='let number of [1,2,3,4,5]'>{{number}}</div>
+        </div>
+    </div>
+    <div class="header">
+        <label>Title:</label>
+        <input class="title" name="currentHeader" value={{currentHeader}} (change) = "editComment($event)" placeholder=" Title..."/>
+    </div>
+    <div class="comment">
+        <label>Comment:</label>
+        <textarea name="currentComment" value={{currentComment}} (change) = "editComment($event)"  placeholder="Comment...">
+        </textarea>
+    </div>
+    <div class="btnWrapper">
+      <button class="sendBtn" (click)="sendReview()">Send Review</button>
+    </div>
+  </div>
+  <div class="showReviewsWrapper">
+      <div class="rateBoxWrapper" *ngFor='let rate of ratingStringList' >
+          <div class="rateBox">
+            <div class="rateHeader">
+              <span>{{rate.currentHeader}}</span>
+              <span>
+                <span>{{rate.countOfStars}}
+                </span>
+                 <img src="../../assets/images/star.png"/>
+              </span>
+            </div>
+            <div class="rateAuthor">
+              <label>Author:</label>
+              <label> {{rate.currentName}}</label>
+            </div>
+            <div class="rateComment">
+              {{rate.currentComment}}
+            </div>
+          </div>
+      </div>
+  </div>
+</div>

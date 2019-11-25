@@ -1,0 +1,135 @@
+﻿.homePageWrapper{
+    /*background-image: url('C:/Users/Oren/Desktop/FinalProject/images/mainPhoto.jpg');
+      background-repeat: no-repeat;
+    */
+    background-image: url('http://www.mikesplacebars.com/site/wp-content/uploads/2017/01/C1242EF2-C589-4B36-88F4-E26C79CAD73C-2000x1200.jpg');
+    background-size: 86%;
+    position: relative;
+    display: grid;
+    overflow: hidden;
+    grid-template-columns: 1fr 230px;
+    h1{
+        color:black;
+        border:double;
+        border-color:black;
+        background-color: rgb(100, 78, 58);
+        margin: 20px 300px 0px 300px;
+    }
+    .scrollingData{
+        overflow-y: scroll;
+        height: 75vh;
+        color: #fff;
+        background-color: #33333385;
+        /* opacity: 0.6; */
+        text-align: center;
+        .aboutUs{
+            margin: auto auto 100px auto;
+          h2{
+                text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+            }
+            .sections{
+                h2{
+                    color:rgb(206, 45, 45);
+                }
+            }
+        }
+        .sportWrapper{
+        .MainPageSport{
+            margin: auto auto auto auto;
+            text-align: left;
+            width:90%;
+            line-height: 6.5em;
+            font-size:1.2em;
+            font-weight: 600;
+            .sportToday{
+            }
+            .sportWeek{
+                li{
+                    margin-left: 50px;
+                }
+            }
+            .sportToday li:nth-child(odd){color:rgb(247, 247, 173), 
+            ;}
+            .sportWeek li:nth-child(odd){color:rgb(247, 247, 173);}
+
+            h2{
+                text-align: center;
+                font-weight: 900;
+                color:rgb(206, 45, 45);
+                text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+            }
+        }
+        h3{
+            text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+        }
+    }
+        .liveShows{
+            
+            .showsTable{
+                margin: auto auto auto auto;
+                border-collapse: collapse;
+                width: 80%;
+            }
+            .showsTable th{
+                padding-top: 12px;
+                padding-bottom: 12px;
+                background-color: white;
+                color:rgb(206, 45, 45);
+            }
+            .showsTable td, .showsTable.th{
+                border: 1px solid #ddd;
+                padding: 8px;
+            }
+            .showsTable tr:nth-child(even){background-color: hsl(0, 2%, 67%); color:black;} 
+        }
+        .SpecialDiscounts{
+            .h3{
+                font-size: 45px;
+                color:white;
+            }
+            .h5{
+                font-size:25px;
+            }
+            .h6{
+                font-size:15px;
+            }
+            p{
+                text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+            }
+        }
+    }
+    .events{
+        background-image: url('https://images.rest.co.il/Customers/80120516/114d04b4c5924b828fdccb075cd0af78.JPG');
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: transparent;
+        width: 230px;
+        height: 100%;
+        .eventRow{
+            height: 30px;
+            width: 100%;
+            text-align: center;
+            font-size: 18px;
+            transition:background-color 0.6s;
+            border: solid black;
+            border-width: 0 3px 3px 0;
+            display: inline-block;
+            padding: 5px;
+            cursor: pointer;
+            &:hover{
+                background-color: rgb(100, 78, 58);
+            }
+            label:hover{
+                color:black;
+                transition:color 0.6s;
+            }
+            label{
+                color: #eee;
+                cursor: pointer;
+                align-self: center;
+            }
+            
+        }
+    }
+}
